@@ -16,7 +16,7 @@ include(GNUInstallDirs)
 find_package(Threads REQUIRED)
 
 option(VERBOSE "Build efsw with verbose mode.")
-option(BUILD_SHARED_LIBS "Build efsw as a shared library" ON)
+option(BUILD_SHARED_LIBS "Build efsw as a shared library" OFF)
 option(BUILD_STATIC_LIBS "Build efsw as a static library" ON)
 option(BUILD_TEST_APP "Build the test app" ${ESFW_MAIN_PROJECT})
 option(EFSW_INSTALL "Add efsw install targets" ${ESFW_MAIN_PROJECT})
